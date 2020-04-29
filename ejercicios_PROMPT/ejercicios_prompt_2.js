@@ -10,4 +10,4 @@ let edad= anoActual-anoNacimiento;
 
 
 //Muestro en pantalla la edad segun lo digitado
-alert(`Usted tiene  ${anoActual-anoNacimiento} años de edad aproximadamente...`);
+alert(`Usted tiene  ${edad} años de edad aproximadamente...`);
