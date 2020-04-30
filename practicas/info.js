@@ -26,7 +26,7 @@ cantidadMiembros = Number(prompt(
 
 for (let i = 0; i < cantidadMiembros; i++) {
   miembrosFamilia.push(
-    prompt(`Digite miembro no. ${i+1} familia`)
+    prompt(`Digite miembro no. ${i+1} de su familia`)
   );
 }
 
