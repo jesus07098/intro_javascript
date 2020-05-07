@@ -1,3 +1,5 @@
+
+
 //PUNTO 1---------------------------------------------------------------------------------------------------------------------------------------
 
 //Array de tamaño fijo
@@ -19,15 +21,12 @@ let cantidadMiembros;
 let miembrosFamilia = [];
 
 //Ciclo para pedir cada uno de los miembros de la familia de acuerdo a la cantidad digitada
-cantidadMiembros = Number(prompt(
-  "Digite la cantidad de miembros de su familia incluyendolo a usted..."
-));
-
+cantidadMiembros = Number(
+  prompt("Digite la cantidad de miembros de su familia incluyendolo a usted...")
+);
 
 for (let i = 0; i < cantidadMiembros; i++) {
-  miembrosFamilia.push(
-    prompt(`Digite miembro no. ${i+1} de su familia`)
-  );
+  miembrosFamilia.push(prompt(`Digite miembro no. ${i + 1} de su familia`));
 }
 
 console.log(miembrosFamilia); //impresion de los miembros de la familia digitados por el usuario
@@ -67,12 +66,14 @@ let datosPersonales = {
 
 let datosArtista = {
   nombreCompleto: prompt("Digite el nombre completo de su artista favorito"),
-  LugarNacimiento: prompt("Digite el lugar de nacimiento de su artista favorito"),
+  LugarNacimiento: prompt(
+    "Digite el lugar de nacimiento de su artista favorito"
+  ),
   edad: Number(prompt("Digite la edad de su artista favorito")),
   cancion: prompt("Digite una de sus canciones"),
 };
 
- //Impresion del nombre completo del usuario, su fecha de nacimiento, el primer pais que le gustaria visitar y 4 datos de su artista fav.
+//Impresion del nombre completo del usuario, su fecha de nacimiento, el primer pais que le gustaria visitar y 4 datos de su artista fav.
 alert(
   `Su nombre completo es: ${datosPersonales.nombreCompleto}, 
    Su fecha de nacimiento es: ${datosPersonales.fechaNacimiento}, 
