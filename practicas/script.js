@@ -5,8 +5,10 @@ const divContainer = document.querySelector('div#container');
 
 btnChangeState.addEventListener('dblclick', function(){
     
-    divContainer.classList.add('d-none'); //agregando la clase al div para ocultarlo
-    titleH1.classList.add('font-italic'); //agregando la clase al h1 para ponerlo en cursiva
-    titleH1.classList.add('text-danger'); //agregando la clase al h1 para ponerle el color rojo
+    divContainer.style.display= "none";
+    titleH1.style.color="red";
+    //divContainer.classList.add('d-none'); //agregando la clase al div para ocultarlo
+    //titleH1.classList.add('font-italic'); //agregando la clase al h1 para ponerlo en cursiva
+    //titleH1.classList.add('text-danger'); //agregando la clase al h1 para ponerle el color rojo
     titleH1.innerHTML= "Haz hecho click";
 });

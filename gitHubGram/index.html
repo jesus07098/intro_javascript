@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>GitHubGram</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-dark mb-3">
+        <form class="form-inline">
+            <a class="navbar-brand" href="https://github.com/" target="_blank">
+                <img src="https://pbs.twimg.com/media/BUij3E0CIAAncKW.png" width="45" height="45" alt="" />
+            </a>
+            <h4 class="mr-4 text-light">GitHubGram</h4>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                </div>
+
+                <input type="text" id="inputUser" class="form-control mr-sm-2" placeholder="Username" aria-label="Username"
+                    aria-describedby="basic-addon1" />
+                <button id="btnSearch" class="btn btn-primary my-2 my-sm-0" type="button">
+                    Search 
+                </button>
+            </div>
+        </form>
+    </nav>
+    
+    <div class="row">
+        <div class="container">
+            <div class="col-md-3">
+                <img class="img_perfil rounded-circle" src="https://es.calcuworld.com/wp-content/uploads/sites/2/2019/09/generador-de-nombres-de-usuario.png" alt="">
+            </div>
+            <div class="col-md-4">
+                <h3 id="realName">Real Name</h3>
+                <p class="" id="userName">User Name</p>
+                <p> <b>Followers: </b><span id="followers">1568225</span></p>
+                <p > <b>Following: </b><span id="following">544948</span></p>
+            </div>
+        </div>
+        </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
